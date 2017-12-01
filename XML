@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mgonzalezrubio01.miguel.MainActivity">
+
+    <TextView
+        android:layout_width="111dp"
+        android:layout_height="43dp"
+        android:text="FTC 12645!"
+        android:textColor="#447b78"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintVertical_bias="0.034"
+        />
+
+    <CheckBox
+        android:id="@+id/first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/first_check"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.101"
+        app:layout_constraintVertical_bias="0.254"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        />
+
+    <CheckBox
+        android:id="@+id/second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/second_check"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.751"
+        app:layout_constraintVertical_bias="0.254"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        />
+
+    <CheckBox
+        android:id="@+id/third"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/third_check"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.111"
+        app:layout_constraintVertical_bias="0.354"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        />
+
+    <CheckBox
+        android:id="@+id/fourth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fourth_check"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.861"
+        app:layout_constraintVertical_bias="0.354"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Points"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintVertical_bias="0.484"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Auto"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.200"
+        app:layout_constraintVertical_bias="0.584"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Teleop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.850"
+        app:layout_constraintVertical_bias="0.584"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        />
+
+    <CheckBox
+        android:id="@+id/particles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/particle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.100"
+        app:layout_constraintVertical_bias="0.694"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        />
+
+    <TextView
+        android:id="@+id/useless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Points: "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintVertical_bias="0.794"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+       />
+
+
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintVertical_bias="0.870"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        />
+
+
+
+</android.support.constraint.ConstraintLayout>
