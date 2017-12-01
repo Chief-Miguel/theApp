@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Miguel</string>
+    <string name = "first_check">Phones</string>
+    <string name="second_check">Boxes</string>
+    <string name="third_check">Chargers</string>
+    <string name="fourth_check">Students</string>
+    <string name="particle">Particles</string>
+</resources>
