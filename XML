@@ -126,6 +126,22 @@
         app:layout_constraintHorizontal_bias="0.100"
         app:layout_constraintVertical_bias="0.694"
         android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:onClick="addone"
+        />
+
+    <CheckBox
+        android:id="@+id/Parking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/parking"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.900"
+        app:layout_constraintVertical_bias="0.694"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:onClick="addtwo"
         />
 
     <TextView
@@ -147,16 +163,17 @@
         android:id="@+id/total"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="0"
+        android:text=""
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintVertical_bias="0.870"
+        app:layout_constraintVertical_bias="0.900"
         android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
-        />
 
+
+        />
 
 
 </android.support.constraint.ConstraintLayout>
